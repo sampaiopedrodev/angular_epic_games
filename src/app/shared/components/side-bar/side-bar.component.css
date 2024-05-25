@@ -1,0 +1,9 @@
+#sidebar {
+    width: 100%;
+    max-width: 250px;
+}
+
+.items {
+    margin: 20px 0;
+    margin-bottom: 40px;
+}

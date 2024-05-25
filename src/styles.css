@@ -3,6 +3,7 @@
 /* CSS Reset */
 * {
     font-family: 'Inter';
+    color: #fff;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -61,8 +62,14 @@ table {
 
 :root {
     --primary-color: #0B0A13;
+    --blue: #4B1FD6;
 }
 
 body {
     background-color: var(--primary-color);
+}
+
+h3 {
+    font-size: 1.05em;
+    font-weight: 600;
 }

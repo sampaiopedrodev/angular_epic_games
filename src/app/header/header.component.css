@@ -89,11 +89,8 @@ header .user img {
 
 header .user p::before {
     content: '';
-    display: inline-block;
     width: 5px;
     height: 5px;
-    -moz-border-radius: 7.5px;
-    -webkit-border-radius: 7.5px;
     border-radius: 7.5px;
     background-color: greenyellow;
     position: absolute;

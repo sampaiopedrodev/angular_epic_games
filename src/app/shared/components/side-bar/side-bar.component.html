@@ -1,0 +1,19 @@
+<div id="sidebar">
+    <h3>Workspace Walt</h3>
+
+    <div class="items">
+        <sidebar-item *ngFor="let item of items" [data]="item"></sidebar-item>
+    </div>
+
+    <h3>Following</h3>
+    
+    <div class="items">
+        <app-user-list></app-user-list>
+    </div>
+
+    <h3>System</h3>
+
+    <div class="items">
+        <sidebar-item *ngFor="let item of items2" [data]="item"></sidebar-item>
+    </div>
+</div>

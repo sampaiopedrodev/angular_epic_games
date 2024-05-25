@@ -1,0 +1,26 @@
+a {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 12px 10px;
+    border-radius: 8px;
+}
+
+a:hover {
+    background: var(--blue);
+}
+
+a img {
+    width: 24px;
+    height: 24px;
+}
+
+a::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 7.5px;
+    background-color: greenyellow;
+    position: absolute;
+    right: 530px;
+}
