@@ -1,0 +1,116 @@
+header {
+    width: 100%;
+    border-bottom: 1px solid #f1f1f154;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 4%;
+}
+
+header .logo {
+    width: 40px;
+}
+
+header .left-side {
+    display: flex;
+    align-items: center;
+    gap: 0 22px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 0 12px;
+}
+
+header nav a {
+    font-weight: 600;
+    color: #fff;
+    font-size: .9em;
+}
+
+header .search-input {
+    width: 100%;
+    max-width: 367px;
+    min-width: 100px;
+    height: 48px;
+    border-radius: 8px;
+    background: #191821;
+    padding: 0 18px;
+}
+
+header .search-input input {
+    width: 90%;
+    border: none;
+    background-color: transparent;
+    height: 100%;
+    margin-left: 8px;
+    color: white;
+}
+
+header .search-input input:focus {
+    outline: none;
+}
+
+header .search-input input::placeholder {
+    font-weight: 600;
+}
+
+header .search-input i {
+    color: #fff;
+    font-size: .8em;
+    color: #6F767E;
+    font-weight: bold;
+}
+
+header .right-side {
+    display: flex;
+    align-items: center;
+}
+
+header .notifications {
+    font-size: 1.3em;
+    color: #6F767E;
+    margin-right: 16px;
+}
+
+header .user {
+    display: flex;
+    align-items: center;
+}
+
+header .user img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+header .user p::before {
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    -moz-border-radius: 7.5px;
+    -webkit-border-radius: 7.5px;
+    border-radius: 7.5px;
+    background-color: greenyellow;
+    position: absolute;
+    top: 44px;
+}
+
+header .user .name {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18.15px;
+    text-align: left;
+    color: #fff;
+    margin-right: 8px;
+}
+
+header .user i {
+    color: #fff;
+    font-weight: bold;
+}
