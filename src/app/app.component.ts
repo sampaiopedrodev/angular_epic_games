@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SideBarComponent } from './shared/components/side-bar/side-bar.component';
 import { HomeComponent } from "./modules/home/home.component";
 
@@ -14,10 +13,10 @@ import { HomeComponent } from "./modules/home/home.component";
         RouterOutlet,
         HeaderComponent,
         SideBarComponent,
-        FontAwesomeModule,
-        HomeComponent
-    ]
+        HomeComponent,
+    ],
 })
+
 export class AppComponent {
   title = 'angular_epic_games';
 }

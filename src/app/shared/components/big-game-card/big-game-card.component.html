@@ -1,0 +1,15 @@
+<div class="games">
+    @for (item of games; track $index) {
+        <div class="game">
+            <div class="left">
+                <img src="assets/images/star.svg" alt="star" class="star" />
+                <div>
+                    <p class="page-title-2">{{item.name}}</p>
+                    <p class="description">Some additional description for this game</p>
+                    <a href="#" class="button">Play Now</a>
+                </div>
+            </div>
+            <img src="{{item.image}}" alt="{{item.name}}" class="logo" />
+        </div>
+    }
+</div>

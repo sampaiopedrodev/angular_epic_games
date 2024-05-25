@@ -21,6 +21,6 @@ a::before {
     height: 5px;
     border-radius: 7.5px;
     background-color: greenyellow;
-    position: absolute;
-    right: 530px;
+    position: relative;
+    left: 225px;
 }

@@ -1,0 +1,40 @@
+.game {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 129px;
+}
+
+p {
+    color: #959494;
+    padding: 8px 5px;
+    font-size: .78em;
+    font-weight: 600;
+}
+
+.es {
+    color: #fff;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 00px;
+    align-items: start;
+    justify-content: start;
+}
+
+@media screen and (max-width: 800px) {
+    /* .game {
+        display: block;
+    } */
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+    }
+}

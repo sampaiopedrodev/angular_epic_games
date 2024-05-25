@@ -1,0 +1,73 @@
+.page-content {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 30px;
+}
+
+.banner .caption {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);;
+}
+
+.banner .caption h3 {
+    color: #fff;
+    font-size: 2.1rem;
+    font-weight: 800;
+}
+
+.banner .caption .button {
+    background: #fff;
+    color: black;
+    font-size: .8em;
+    font-weight: 800;
+    margin: 12px;
+    padding: 13px 10px;
+    border-radius: 5px;
+}
+
+.page-title {
+    padding: 30px 0;
+}
+
+.page-title-2 {
+    padding: 25px 0;
+    font-weight: 300;
+}
+
+.card {
+    width: 100%;
+    background: var(--lineary-gradient);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.mini-games-container {
+    display: flex;
+    gap: 40px 15px;
+    flex-wrap: wrap;
+}
+
+/* @media screen and (max-width: 800px) {
+    .category-list {
+        
+    }
+} */
+
+@media screen and (max-width: 800px) {
+    .page-content {
+        display: block;
+    }
+
+    .mini-games-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

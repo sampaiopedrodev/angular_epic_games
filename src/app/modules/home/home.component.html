@@ -1,3 +1,44 @@
-<div class="content">
+<div class="page-content">
     <app-side-bar></app-side-bar>
+
+    <section>
+        <p-galleria 
+        [value]="images" 
+        [indicatorsPosition]="'bottom'" 
+        [showIndicators]="true" 
+        [showThumbnails]="false" 
+        [showIndicatorsOnItem]="true" 
+        [responsiveOptions]="responsiveOptions"
+        [containerStyle]="{'width': '100%', 'margin-bottom': '20px'}">
+            <ng-template pTemplate="item" let-item>
+                <div class="banner">
+                    <img [src]="item.itemImageSrc" style="width: 100%; display: block;" />
+                    <div class="caption">
+                        <h3>{{item.title}}</h3>
+                        <a href="#" class="button">{{item.description}}</a>
+                    </div>
+                </div>
+            </ng-template>
+        </p-galleria>
+
+        <div class="category-list">
+            <app-categorylist *ngFor="let category of categories1, let i = index" [category]="category"></app-categorylist>
+        </div>
+
+        <h3 class="page-title">Game Statistics</h3>
+
+        <div class="card">
+            <app-categorylist *ngFor="let category of categories2, let i = index" [category]="category"></app-categorylist>
+
+            <h4 class="page-title-2">TOP 3 - Statistics of last 7 days in this platform </h4>
+
+            <div class="mini-games-container">
+                <app-mini-game-card *ngFor="let game of games, let i = index" [game]="game"></app-mini-game-card>
+            </div>
+        </div>
+
+        <h3 class="page-title">Game Statistics</h3>
+
+        <app-big-game-card></app-big-game-card>
+    </section>
 </div>

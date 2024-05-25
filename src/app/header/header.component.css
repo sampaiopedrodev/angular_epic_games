@@ -111,3 +111,13 @@ header .user i {
     color: #fff;
     font-weight: bold;
 }
+
+@media screen and (max-width: 800px) {
+    header .container {
+        padding: 10px 8%;
+    }
+    
+    .search-input, nav {
+        display: none;
+    }
+}

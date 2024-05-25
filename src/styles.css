@@ -1,5 +1,6 @@
 @import "primeicons/primeicons.css";
 
+
 /* CSS Reset */
 * {
     font-family: 'Inter';
@@ -63,6 +64,7 @@ table {
 :root {
     --primary-color: #0B0A13;
     --blue: #4B1FD6;
+    --lineary-gradient: linear-gradient(92.69deg, rgba(62, 236, 58, 0.04) 0.12%, rgba(58, 97, 236, 0.1) 99.74%);
 }
 
 body {
