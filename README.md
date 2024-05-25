@@ -12,6 +12,6 @@ Node v22.1.0 e Angular v18.0.1
 
 `ng serve --open` ou `npm start`
 
-E o Link de teste `http://localhost:4200/` estará disponivél.
+E o Link de teste `http://localhost:4200/` estará disponível.
 
 
