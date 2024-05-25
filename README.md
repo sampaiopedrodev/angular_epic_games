@@ -1,6 +1,6 @@
 # AngularEpicGames
 
-## 1º Reqisitos
+## 1º Requisitos
 
 Node v22.1.0 e Angular v18.0.1
 
